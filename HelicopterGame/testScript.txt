@@ -1,0 +1,6 @@
+#thrusts the helicopter directly sideways for 25 seconds (test gets pos, vel,acc), end
+set_joystick 90 0	#centres the joystick
+throttle 23		#set throttle
+delay 25		#delay for 25 seconds
+throttle 0		#disable throttle
+end

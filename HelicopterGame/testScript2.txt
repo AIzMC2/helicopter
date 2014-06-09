@@ -1,0 +1,7 @@
+#thrusts the helicopter upwards for 10 seconds (test gets pos, vel,acc), end
+set_friction 0		#setting to 100 restores friction
+set_joystick 0 0	#centres the joystick
+throttle 23		#set throttle
+delay 10		#delay for 10 seconds
+throttle 0		#disable throttle
+end
